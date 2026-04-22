@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento - Pipoquinha Roupas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="icone.png" alt="logo" class="logo-topo">
+        <nav>
+            <span>Pipoquinha Roupas de Festas</span>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Agendamento de Locação</h1>
+        
+        <form action="#" method="post">
+            <!-- Container de vestidos lado a lado usando suas imagens -->
+            <div class="roupas-container">
+                <label class="card-roupa">
+                    <input type="radio" name="tipo_roupa" value="vestido1" required>
+                    <img src="vestido1.png" alt="Vestido Modelo 1">
+                    <span>Modelo 1</span>
+                </label>
+                
+                <label class="card-roupa">
+                    <input type="radio" name="tipo_roupa" value="vestido2">
+                    <img src="vestido2.png" alt="Vestido Modelo 2">
+                    <span>Modelo 2</span>
+                </label>
+
+                <label class="card-roupa">
+                    <input type="radio" name="tipo_roupa" value="vestido3">
+                    <img src="vestido3.png" alt="Vestido Modelo 3">
+                    <span>Modelo 3</span>
+                </label>
+            </div>
+
+            <!-- Campos de Dados -->
+            <div class="campos-dados">
+                <div class="campo">
+                    <label>Seu Nome:</label>
+                    <input type="text" name="nome" placeholder="Digite seu nome" required>
+                </div>
+
+                <div class="campo">
+                    <label>Data Prevista para Locação:</label>
+                    <input type="date" name="data_locacao" required>
+                </div>
+
+                <div class="campo">
+                    <label>Telefone de Contato:</label>
+                    <input type="tel" name="telefone" placeholder="(00) 00000-0000" required>
+                </div>
+
+                <div class="campo">
+                    <label>E-mail para Confirmação:</label>
+                    <input type="email" name="email" placeholder="exemplo@email.com" required>
+                </div>
+            </div>
+
+            <a href="index3.html">
+                <button>Confirmar Pedido</button>
+            </a>
+            
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Pipoquinha Roupas. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
